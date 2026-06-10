@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+vsc_settings/
+.vscode/
