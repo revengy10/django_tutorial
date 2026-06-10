@@ -20,4 +20,5 @@ from django.urls import include, path # include eklendi
 urlpatterns = [
     path('polls/', include('polls.urls')), # polls linki bağlandı
     path('admin/', admin.site.urls),
+    path('__debug__/', include('debug_toolbar.urls')), # debug toolbar linki bağlandı
 ]
